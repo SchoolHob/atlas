@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>My page title</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- the below three lines are a fix to get HTML5 semantic elements working in old versions of Internet Explorer-->
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+
+    <style>
+        body {
+            background-color: rgb(13, 6, 20);
+            color: antiquewhite;
+
+        }
+        h1 {
+            text-align: center;
+            font-size: 40pt;
+        }
+        p {
+            text-align: center; 
+        }
+        .img-container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 3px;
+            margin: 50px auto;
+            padding: 50px 0px;
+            width: 50%;
+            border: 10px solid rgb(153, 110, 46);
+            background-color: rgb(40, 24, 24);
+            
+        }
+        .std-img {
+            width: 44%;
+        }
+        .small-paragraph {
+            margin: 100px auto;
+            text-indent: ;
+            padding: 15px 15px;
+            text-align: left;
+            width: 33%;
+            background-color: rgb(40, 24, 24);
+            border: 3px solid rgb(153, 110, 46);
+            color:antiquewhite;
+            font-size: 15pt;
+            line-height: 150%;
+        }
+
+        a:link {
+            color: goldenrod;
+        }
+        a:visited {
+            color: rgb(213, 72, 72);
+        }
+    </style>
+  </head>
+
+  <!-- I included the body element below which is not part of the html version or the head to make
+    make sure you include it above your HTML code -->
+  <body>
+
+    <h1>A Collection of Four Seemingly Related Images</h1>
+    <p><em>The Universe is as strange as it is completely commensurate</em></p>
+    <div class="img-container">
+        <img src="img/wolf.jpeg" class="std-img">
+        <img src="img/bunnies.jpeg"  class="std-img">
+        <img src="img/door.jpeg"  class="std-img">
+        <img src="img/tree-and-moon.jpeg"  class="std-img">
+    </div>
+
+    <p class="small-paragraph">
+        Perhaps what connects these images are not the subjects themselves but the human-minded perspective that placed them next to eachother.
+        The Universe has many <a href="https://en.wikipedia.org/wiki/Fractal_cosmology">commonalities</a>. <a href="https://en.wikipedia.org/wiki/Color_scheme">Color</a> and <a href="https://en.wikipedia.org/wiki/Aesthetics">percieved aesthteics</a> point to a certain subset of similarities for these four images.
+    </p>
+  </body>
+</html>
