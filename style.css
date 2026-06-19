@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(13, 6, 20);
+    background-color: rgb(6, 0, 12);
     color: antiquewhite;
 
 }
@@ -23,9 +23,9 @@ p {
     margin: 50px auto;
     padding: 50px 0px;
     width: 50%;
-    border: 10px solid rgb(153, 110, 46);
+    border: 10px solid rgb(153, 46, 55);
     background-color: rgb(40, 24, 24);
-    
+    border-radius: 15px;
 }
 
 .std-img {
@@ -33,15 +33,17 @@ p {
 }
 
 .small-paragraph {
+    box-sizing: border-box;
     margin: 100px auto;
-    padding: 15px 15px;
+    padding: 15px 150px;
     text-align: left;
-    width: 33%;
+    width: 100%;
     background-color: rgb(40, 24, 24);
-    border: 3px solid rgb(153, 110, 46);
     color:antiquewhite;
     font-size: 15pt;
     line-height: 150%;
+    border-top: 3px solid  rgb(153, 46, 55);
+    border-bottom: 3px solid  rgb(153, 46, 55);
 }
 
 a:link {
