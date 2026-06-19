@@ -1,2 +1,2 @@
 # atlas
-This assignment was fun, it was nice to follow the tutorial but I also took some of my own liberties. I found I picture I had taken from the Museuem of Anthropology and then I found a website that had more information on the origins of the framed atrifact. I included both the image and some information from the website to make a small informational webpage.
+This assignment was fun, it was nice to follow the tutorial but I also took some of my own liberties. I found I picture I had taken from the Museum of Anthropology and then I found a website that had more information on the origins of the framed artifact. I included both the image and some information from the website to make a small informational webpage.
